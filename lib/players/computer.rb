@@ -19,7 +19,6 @@ CORNERS = ["1", "3", "7", "9"]
 SIDES = ["2", "4", "6", "8"]
 
 def move(board)
-  my_answer = nil
   @board = board
   opponent_token
 
