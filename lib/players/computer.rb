@@ -21,6 +21,7 @@ SIDES = ["2", "4", "6", "8"]
 def move(board)
   my_answer = nil
   @board = board
+  opponent_token
 
  if check_for_winning_move != nil
     my_answer = check_for_winning_move
